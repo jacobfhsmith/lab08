@@ -1,0 +1,40 @@
+---
+title: "Lab 08: Linear Regression"
+subtitle: "Due: Sat, March 27 at 11:59pm ET"
+author: ""
+date: ""
+editor_options: 
+  chunk_output_type: console
+output:
+  pdf_document: default
+---
+
+```{r set_up, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
+                      comment = "#>", highlight = TRUE,
+                      fig.align = "center")
+```
+
+## Packages
+
+```{r echo=TRUE}
+library(tidyverse)
+library(broom)
+library(viridis)
+```
+
+## Data
+
+Here, you will be working with demographic data from counties in the Midwest from the `midwest` dataset in R. You can learn more about this dataset by typing ?midwest into the console. 
+
+# Exercises
+
+## Exercise 1
+
+```{r ex_1}
+```
+
+
+## References
+
+Midwest Demographics. Dataset in `ggplot2`. https://ggplot2.tidyverse.org/reference/midwest.html
